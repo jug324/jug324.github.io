@@ -1,0 +1,92 @@
+body {
+	background-image:url("pimages/pattern-kzu1.png");
+	font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+
+}
+
+h2 {
+	text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #fff;
+	}
+.listitem {
+	padding: 0 15px !important;
+}
+.bshadow {
+	box-shadow: 4px 4px 2px #000 !important;
+}
+img.alignleft {
+	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+}
+
+.navbar {
+    min-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #39867E;
+    background-image: -moz-linear-gradient(top, #39867E, #39867E);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#39867E), to(#39867E));
+    background-image: -webkit-linear-gradient(top, #39867E, #39867E);
+    background-image: -o-linear-gradient(top, #39867E, #39867E);
+    background-image: linear-gradient(to bottom, #39867E, #39867E);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff39867E', endColorstr='#ff39867E', GradientType=0);
+    border: 0px solid #d4d4d4;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    z-index: 1000;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    }
+
+img.banner{
+width:600px;
+height:200px;
+margin-bottom: 20px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+
+    a.gumroad-button {
+    background-color: white !important;
+    background-image: url(https://gumroad.com/button/button_bar.jpg) !important;
+    background-repeat: repeat-x !important;
+    border-radius: 4px !important;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px !important;
+    color: #999 !important;
+    display: inline-block !important;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 50px !important;
+    padding: 0 15px !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+}
+p.p1 {
+	text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #fff;
+}
+h1 {
+	color: #31998E;
+	font-size: 36px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0.67em 0;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
