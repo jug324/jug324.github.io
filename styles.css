@@ -1,23 +1,68 @@
 body {
-	background-image:url("pimages/pattern-kzu1.png");
-	font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image:url("pimages/pattern-kzu1.png");
+    font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
 
 }
 
 h2 {
-	text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	color: #fff;
-	}
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fff;
+    }
+
+.internallink ul {
+  display:flex;
+  flex-direction:row;
+list-style-type: none;
+justify-content:center;
+}
+
+.container {
+    position:relative;
+    text-align:center;
+    color:white;
+   margin: 5px;
+   
+    
+}
+.container img {
+    object-fit: cover;
+    border: 5px double rgb(255, 255, 255); 
+    border-radius: 100%; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px; 
+    margin: 0px;
+    width: 215px; 
+    height: 215px;
+
+
+}
+
+.top-left {
+    position:absolute;
+    top:190px;
+    left:85px;
+}
+
+.internallink li a {
+    color: #fff !important;
+    
+    padding: 8px;
+    padding-right:30px;
+    font-size: 20px;
+    text-decoration:none;
+
+
+}
+
 .listitem {
-	padding: 0 15px !important;
+    padding: 0 15px !important;
 }
 .bshadow {
-	box-shadow: 4px 4px 2px #000 !important;
+    box-shadow: 4px 4px 2px #000 !important;
 }
 img.alignleft {
-	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+    margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
 }
 
 .navbar {
@@ -76,17 +121,66 @@ display: block;
     text-decoration: none !important;
 }
 p.p1 {
-	text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	color: #fff;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fff;
 }
 h1 {
-	color: #31998E;
-	font-size: 36px;
-	margin-top: 20px;
+    color: #31998E;
+    font-size: 36px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-family: "Open Sans", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.1;
     margin: 0.67em 0;
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.gumroad-button-logo { 
+        background-image: url("https://gumroad.com/button/button_logo.png") !important; 
+        background-size: cover !important; 
+        height: 17px !important; 
+        width: 16px !important; 
+        display: inline-block !important; 
+        margin-bottom: -3px !important; 
+        margin-right: 15px !important; 
+} 
+
+.gumroad-loading-indicator { 
+    background: white; 
+    border-radius: 50%; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+    display: none; 
+    height: 60px; 
+    left: 50% !important; 
+    margin-left: -30px !important; 
+    margin-top: -30px !important; 
+    padding: 10px; 
+    position: fixed; 
+    top: 50% !important; 
+    width: 60px; 
+    z-index: 99997; 
+}
+.gumroad-loading-indicator i { 
+    background: url("https://gumroad.com/js/loading-rainbow.svg"); 
+    height: 40px; 
+    width: 40px; 
+    display: inline-block; 
+    background-size: contain; 
+    animation: gumroad-spin 1.5s infinite linear; 
+} 
+
+.gumroad-overlay-iframe { 
+    position: fixed !important; 
+    overflow: hidden !important; 
+    z-index: 99998 !important; 
+    top: 0 !important; 
+    right: 0 !important; 
+    width: 0; 
+    height: 0; 
+    border: none !important; 
+    margin: 0 !important; 
+    padding: 0 !important; 
+    zoom: 1; 
 }
