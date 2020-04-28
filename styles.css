@@ -32,16 +32,18 @@ justify-content:center;
     border-radius: 100%; 
     box-shadow: rgb(0, 0, 0) 0px 0px 10px; 
     margin: 0px;
-    width: 215px; 
-    height: 215px;
+    width: 225px; 
+    height: 225px;
 
 
 }
+
 
 .top-left {
     position:absolute;
     top:190px;
     left:85px;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .internallink li a {
@@ -120,9 +122,13 @@ display: block;
     text-shadow: none !important;
     text-decoration: none !important;
 }
-p.p1 {
+.p1 {
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: #fff;
+    text-align:justify;
+    display:block !important;
+    line-height:1.428571429;
+    
 }
 h1 {
     color: #31998E;
