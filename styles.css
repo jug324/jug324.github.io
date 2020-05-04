@@ -128,7 +128,10 @@ display: block;
     text-align:justify;
     display:block !important;
     line-height:1.428571429;
-    
+
+}
+.p1 a {
+    text-shadow: none;
 }
 h1 {
     color: #31998E;
