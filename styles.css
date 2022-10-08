@@ -22,6 +22,48 @@ a {
 a:hover {
     text-decoration:none;
 }
+/**Gridding**/
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+[class*="col-1"] {
+  width: 40%;
+}
+
+[class*="col-10"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 .internallink ul {
     display:flex;
@@ -57,6 +99,26 @@ a:hover {
 .container:hover img{
     border-color:orange;
     border-radius:0%;
+}
+.boxes {
+    position:relative;
+    text-align:center;
+    color:white;
+   margin-right: 15px;
+   
+    
+}
+
+.boxes img {
+    object-fit: cover;
+    border: 5px double rgb(255, 255, 255); 
+    border-radius: 100%; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px; 
+    margin: 0px;
+    width: 125px; 
+    height: 125px;
+
+
 }
 
 #latest{
@@ -95,7 +157,7 @@ object {
 }
 
 .listitem {
-    padding: 0 15px !important;
+    padding: 0px 15px !important;
 }
 .bshadow {
     box-shadow: 4px 4px 2px #000 !important;
@@ -169,6 +231,10 @@ display: block;
 }
 .p1 a {
     text-shadow: none;
+}
+
+.p2 {
+    font-size: calc(8px + 1vw);
 }
 h1 {
     color: #31998E;
