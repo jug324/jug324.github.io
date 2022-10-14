@@ -235,6 +235,7 @@ display: block;
 
 .p2 {
     font-size: calc(8px + 1vw);
+    color: #fff;
 }
 h1 {
     color: #31998E;
